@@ -13,7 +13,6 @@ const list = ingredients.map(ingredient => {
   liEl.classList.add("item");
   liEl.textContent = ingredient;
   return liEl;
-  console.log(liEl);
 });
 listEl.append(...list);
 
