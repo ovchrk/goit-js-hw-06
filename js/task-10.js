@@ -40,6 +40,7 @@ btnDestroy.addEventListener("click", destroyButtonClickHandler);
 
 function destroyButtonClickHandler(event) {
   boxesEl.innerHTML = "";
+  inputEl.value = 0;
 }
 
 // let text = ``;
